@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>name</key>
+		    <string>Usertheme</string>
+		<key>type</key>
+		    <string>select</string>
+		<key>label</key>
+		    <string>Theme</string>
+		<key>default</key>
+		    <string>dark</string>
+		<key>options</key>
+            <dict>
+                <key>Dark</key>
+                <string>dark</string>
+                <key>Light</key>
+                <string>light</string>
+            </dict>
+	</dict>
+
+	<dict>
+		<key>name</key>
+		    <string>UsertwelveHr</string>
+		<key>type</key>
+		    <string>switch</string>
+		<key>label</key>
+		    <string>Use 12h Time</string>
+		<key>default</key>
+		    <false/>
+	</dict>
+
+</array>
+</plist>

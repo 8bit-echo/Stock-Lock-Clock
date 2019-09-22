@@ -1,0 +1,46 @@
+/* Author: Matt Dickey, March 2017 http://www.mattdickeydesign.com*/
+@font-face {
+  src: url("font/SFDisplay-Thin.otf");
+  font-family: "SanFrancisco-Thin";
+}
+
+/*Defaults are for iPhone 5.5"*/
+
+body {
+  margin: 0;
+  font-family: "SanFrancisco-Thin", sans-serif;
+  font-weight: lighter;
+  font-size: 1.5em;
+  color: #f2f2f2;
+  /* background: black;
+  background-image: url(reference.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0 0; */
+}
+
+.container {
+  position: relative;
+  width: 75%;
+  margin: 0 auto;
+  margin-top: 100px;
+  text-align: center;
+  text-shadow: 0 0 100px rgba(0, 0, 0, 0.7);
+}
+
+#time {
+  font-size: 80px;
+  position: relative;
+}
+
+.time-container {
+  font-size: 3.2em;
+}
+
+.date-container {
+  font-size: 0.8em;
+  position: relative;
+  text-shadow: 0 0 40px rgba(0, 0, 0, 0.7);
+  letter-spacing: 1.1px;
+  top: -2px;
+}
